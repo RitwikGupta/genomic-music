@@ -12,7 +12,7 @@ Install `Lilypond`. The executable shell script is included in the `prereq` fold
 How to use
 ==========
 
-Have a one line text file that is a lower-case DNA sequence in the `genomicData` folder  
+Have a one line text file that is a lower-case DNA sequence in the `genomicData` folder. The file for the oxytocin receptor for H. Sapiens is included   
 `cd` to the `src` folder  
 Run `python tranlation.py ../genomicData/[FileName]`  
 Run `python music.py ../genomicData/[FileName + "_translated"] [Title] [Composer] [TagLine] > ../music.ly`  
