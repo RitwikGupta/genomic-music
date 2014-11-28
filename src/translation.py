@@ -6,6 +6,10 @@ from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
 import sys
 
+if len(sys.argv) != 2:
+    print "\nThe proper usage of this program is:\n python music.py [Path to protein seq]\n"
+    sys.exit(0)
+
 fp = sys.argv[1] #relative or absolute file path to DNA sequence
 genomicData = ""
 protein = ""
