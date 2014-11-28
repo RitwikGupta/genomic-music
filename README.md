@@ -6,7 +6,7 @@ Making music from a genome. The genome should be provided as raw data (i.e., TCA
 Prerequisites
 =============
 
-Install `Biopython`  
+Install `Biopython` by `pip install biopython`  
 Install `Lilypond`. The executable shell script is included in the `prereq` folder.  
 
 How to use
