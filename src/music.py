@@ -1,6 +1,6 @@
 import sys
 
-if(len(sys.argv) != 4):
+if(len(sys.argv) != 5):
     print "\nThe proper usage of this program is:\n python music.py [Path to protein seq] [Title] [Composer] [Tagline]\n"
     sys.exit(0)
 
