@@ -8,6 +8,7 @@ Prerequisites
 
 Install `Biopython` by `pip install biopython`  
 Install `Lilypond`. The executable shell script is included in the `prereq` folder.  
+Install `timidity` and `lame`
 
 How to use
 ==========
