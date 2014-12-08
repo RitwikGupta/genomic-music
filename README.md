@@ -17,5 +17,6 @@ Have a one line text file that is a lower-case DNA sequence in the `genomicData`
 Run `python tranlation.py ../genomicData/[FileName]`  
 Run `python music.py ../genomicData/[FileName + "_translated"] [Title] [Composer] [TagLine] > ../music.ly`  
 Run `lilypond ../music.ly`  
+Run `timidity music.midi -Ow -o - | lame - -b 64 music.mp3`  
 
-Open `music.pdf` and look at your sheet music
+Open `music.pdf` and look at your sheet music or play `music.mp3` and listen to it.  
